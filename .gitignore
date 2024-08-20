@@ -6,3 +6,12 @@
 
 # macOS hidden file
 .DS_Store
+
+
+# fastq file
+data/raw/fastq
+# ignore whole directory
+*.fastq.gz
+# ignore all files ending in .fastq.gz
+*.fastq
+# ignore all files ending in .fastq
